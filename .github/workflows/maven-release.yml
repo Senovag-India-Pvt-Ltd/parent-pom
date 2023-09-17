@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        repository: git@github.com:Senovag-India-Pvt-Ltd/parent-pom.git
+        repository: https://github.com/Senovag-India-Pvt-Ltd/parent-pom.git
         token: ${{secrets.PA_TOKEN}}
         username: jaibharata
     - name: Set up JDK 17
