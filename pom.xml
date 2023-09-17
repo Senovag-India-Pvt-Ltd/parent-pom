@@ -30,7 +30,7 @@
         <connection>scm:git:git://github.com/Senovag-India-Pvt-Ltd/parent-pom.git</connection>
         <developerConnection>scm:git:https://github.com/Senovag-India-Pvt-Ltd/parent-pom.git
         </developerConnection>
-        <url>https://github.com/Senovag-India-Pvt-Ltd/parent-pom</url>
+        <url>git@github.com:Senovag-India-Pvt-Ltd/parent-pom.git</url>
         <tag>parent-pom-1.0.0</tag>
     </scm>
     <distributionManagement>
