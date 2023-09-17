@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.sericulture.parentpom</groupId>
     <artifactId>parent-pom</artifactId>
-    <version>1.0</version>
+    <version>1.0.o</version>
     <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
@@ -18,6 +18,21 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.1.3</version>
     </parent>
+    <developers>
+        <developer>
+            <name>sac</name>
+            <email>jaibharata87@gmail.com</email>
+            <organization>com.sericulture</organization>
+            <organizationUrl>https://github.com/bhatsac/parent-pom</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/bhatsac/parent-pom.git</connection>
+        <developerConnection>scm:git:https://github.com/bhatsac/parent-pom.git
+        </developerConnection>
+        <url>https://github.com/bhatsac/parent-pom</url>
+        <tag>parent-pom-1.0.0</tag>
+    </scm>
     <distributionManagement>
         <repository>
             <id>github</id>
