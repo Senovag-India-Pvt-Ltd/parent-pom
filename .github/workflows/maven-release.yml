@@ -8,7 +8,6 @@ on: workflow_dispatch
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -21,9 +20,11 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
-        settings-path: ${{ github.workspace }} # location for the settings.xml file
-
+        server-id: github 
+    - name: Configure Git user
+      run: |
+        git config user.email "jaibharata87@github.com"
+        git config user.name "jaibharata"
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
