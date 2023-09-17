@@ -23,14 +23,14 @@
             <name>sac</name>
             <email>jaibharata87@gmail.com</email>
             <organization>com.sericulture</organization>
-            <organizationUrl>https://github.com/bhatsac/parent-pom</organizationUrl>
+            <organizationUrl>https://github.com/Senovag-India-Pvt-Ltd/parent-pom</organizationUrl>
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/bhatsac/parent-pom.git</connection>
-        <developerConnection>scm:git:https://github.com/bhatsac/parent-pom.git
+        <connection>scm:git:git://github.com/Senovag-India-Pvt-Ltd/parent-pom.git</connection>
+        <developerConnection>scm:git:https://github.com/Senovag-India-Pvt-Ltd/parent-pom.git
         </developerConnection>
-        <url>https://github.com/bhatsac/parent-pom</url>
+        <url>https://github.com/Senovag-India-Pvt-Ltd/parent-pom</url>
         <tag>parent-pom-1.0.0</tag>
     </scm>
     <distributionManagement>
